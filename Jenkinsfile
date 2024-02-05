@@ -8,9 +8,7 @@ pipeline {
         }
         stage("Test"){
             steps{
-                sh "sudo apt install npm"
-                input "take password"
-                sh "npm install"
+                echo "Test"
             }
 
         }
