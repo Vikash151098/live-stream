@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: live-strean-web-c
+    image: live-strean-web-i
+    build: 
+      context: .
+    ports:
+     - 8090:80

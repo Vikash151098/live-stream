@@ -12,6 +12,11 @@ pipeline {
             }
 
         }
+        stage("docker compose build"){
+            steps{
+                sh "docker componse up"
+            }
+        }
 
     }
 }
